@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="fEt~OJ6q]V^s|:je{,@h" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="em5^/;C=u#j}4O#}Coba"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="^xkyAUR}^/6kp;Qj-s;a"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="z@OCZKxjZtl.N92I|`x7"></block></value><value name="B"><shadow type="math_number" id="w(c6%)z]!b,%+.;Z)a_!"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="}V0r6u_HUQ,-LbLww1[1"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="soundExpression_playSoundEffect" id="!RHYabQBD/C!a6G09#.A"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="id8s|~9}1jWoLQl_FZ-q"><field name="soundExpression">soundExpression.sad</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_clear_display" id="sIsX)*~Q5Dhl44[DW.ze"><next><block type="controls_if" id="PcwKKJfC0EnOtk#TX3Te"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="%*d@iv7nxCv:QnPE1{Zr"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="I8@gZTJ)sO6G2Q+Odx_U"></block></value><value name="B"><shadow type="math_number" id="%rC}g$z7!WdLD|XyKX;1"><field name="NUM">70</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="yU2(KoKo:,a(Qab`Mhs="><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="8Y_VUk*v;gY#px5#B#+@"></block></statement></block></next></block></statement><next><block type="controls_if" id="PA728.3Wk)C]Rfm(/(|:"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="9EYvGLvzCg?No_Us;WED"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="6W-d.!mWoPqk--_(It$h"></block></value><value name="B"><shadow type="math_number" id="6O7xcDcB,[OpD5qCMm,8"><field name="NUM">40</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="qqBSsZF8y}$]g9)t-M-j"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="Nhq8=yve~[%PTd{%_{~P"></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="U|=g{c+)Q0w*Xpu,Awjy" x="447" y="-10"><statement name="HANDLER"><block type="device_print_message" id="d)b{gWv[9T!S=3/e?JF7"><value name="text"><shadow type="text" id="LxJUBV@Sq={%:*:fq-]c"><field name="TEXT">Medidor de luz</field></shadow></value><next><block type="device_print_message" id=":-UR*Lq#TSIdVVlh@s?e"><value name="text"><shadow type="text" id="-vMc.9k,{89zN:,:gsR$"><field name="TEXT">GRUPO 1</field></shadow></value></block></next></block></statement></block></xml>
